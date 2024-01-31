@@ -13,12 +13,12 @@ class Data:
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("📥 Ini Grup ku  📥", url="https://t.me/kazusupportgrp")],
+        [InlineKeyboardButton("📥 Ini Grup Gua 📥", url="https://t.me/musicsupport_dan")],
         [
             InlineKeyboardButton("Cara Pakeknya ❔", callback_data="help"),
-            InlineKeyboardButton("📌 Apa Masalah Kau 📌", callback_data="about")
+            InlineKeyboardButton("📌 Apa Masalah Lu 📌", callback_data="about")
         ],
-        [InlineKeyboardButton("🤖 Daftar Repo Bot 🤖", url="https://t.me/Html12text")],
+        [InlineKeyboardButton("🤪 Daftar PP Tele 🤪", url="https://t.me/Disney_storeDan")],
     ]
 
     START = """
@@ -29,7 +29,7 @@ class Data:
 2) 𝙱𝙻𝙾𝙺𝙸𝚁 𝙱𝙾𝚃 𝙰𝚃𝙰𝚄 𝙳𝙴𝙻𝙰𝚃𝙴 𝙲𝙷𝙰𝚃 
 Bot ini Bekerja Untuk Membantu Kamu Mendapatkan String Session Via Bot. Rekomendasi Jika Ingin Mengambil String Gunakan Akun Lain, Agar Tidak Delay. Terimakasih
 
-By @kenapatagkazu
+By @mhmdwldnnnn
     """
 
     HELP = """
@@ -48,11 +48,11 @@ By @kenapatagkazu
 
 Telegram Bot to generate Pyrogram and Telethon string session by @StarkBots
 
-Source Code : [Click Here](https://github.com/ionmusic/KazuStringGen)
+Source Code : [Click Here](https://xnxx.com/)
 
 Framework : [Pyrogram](https://docs.pyrogram.org)
 
 Language : [Python](https://www.python.org)
 
-Developer : @kenapatagkazu
+Developer : @mhmdwldnnnn
     """
