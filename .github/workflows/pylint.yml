@@ -20,9 +20,9 @@ jobs:
           # commit change
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 'ArmanGG01: auto fixes'
+          commit_message: 'Wildan2024: auto fixes'
           commit_options: '--no-verify --signoff'
           repository: .
-          commit_user_name: ArmanGG01
-          commit_user_email: muhammadarrif2f@gmail.com 
-          commit_author: ArmanGG01 <muhammadarrif2f@gmail.com>
+          commit_user_name: Wildan2024
+          commit_user_email: githubwildan@gmail.com 
+          commit_author: Wildan2024 <githubwildan@gmail.com>
