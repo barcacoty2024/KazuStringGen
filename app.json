@@ -50,7 +50,7 @@
     "MUST_JOIN": {
       "description": "Add username/id of a channel/group",
       "required": true,
-      "value": "https://t.me/Disney_storeDan"
+      "value": "https://t.me/musicsupport_dan"
     }
   }
 }
