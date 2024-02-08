@@ -13,7 +13,7 @@ if ENVIRONMENT:
     # https://stackoverflow.com/questions/62688256/sqlalchemy-exc-nosuchmoduleerror-cant-load-plugin-sqlalchemy-dialectspostgre
     MUST_JOIN = os.environ.get('MUST_JOIN', None)
     if MUST_JOIN.startswith("@Disney_storeDan"):
-        MUST_JOIN = MUST_JOIN.replace("@musicsupport_dan", "")
+        MUST_JOIN = MUST_JOIN.replace("@MUST_JOIN", "@musicsupport_dan")
 else:
     # Fill the Values
     API_ID = 0
