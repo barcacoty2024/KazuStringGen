@@ -46,7 +46,7 @@ By @mhmdwldnnnn
     ABOUT = """
 **About This Bot** 
 
-Telegram Bot to generate Pyrogram and Telethon string session by @StarkBots
+Telegram Bot to generate Pyrogram and Telethon string session by @mhmdwldnnnn
 
 Source Code : [Click Here](https://xnxx.com/)
 
