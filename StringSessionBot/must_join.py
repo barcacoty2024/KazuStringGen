@@ -23,7 +23,7 @@ async def must_join_channel(bot: Client, msg: Message):
                     f"𝙹𝙾𝙸𝙽 𝙺𝙴 𝙶𝚁𝚄𝙿 𝙳𝚄𝙻𝚄 [CHANEL](https://t.me/Disney_storeDan) 𝚄𝙽𝚃𝚄𝙺 𝙼𝙴𝙽𝙶𝙶𝚄𝙽𝙰𝙺𝙰𝙽 𝙱𝙾𝚃 𝙸𝙽𝙸. 𝚂𝙴𝚃𝙴𝙻𝙰𝙷 𝙸𝚃𝚄 𝚂𝚃𝙰𝚁𝚃 𝙺𝙴𝙼𝙱𝙰𝙻𝙸 /start",
                     disable_web_page_preview=Ture,
                     reply_markup=InlineKeyboardMarkup([
-                        [InlineKeyboardButton("ᴅᴀɴ sᴜᴘᴘᴏʀᴛ​", url="https://t.me/musik_supportdan")]
+                        [InlineKeyboardButton("sᴛᴏʀᴇ", url="https://t.me/Disney_storeDan")]
                     ])
                 )
                 await msg.stop_propagation()
