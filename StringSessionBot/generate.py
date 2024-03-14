@@ -38,7 +38,7 @@ buttons_ques = [
         InlineKeyboardButton("Telethon", callback_data="telethon"),
     ],
     [
-        InlineKeyboardButton("Pyrogram v2 [Kazu-Ubot & PyroZu-Userbot]", callback_data="pyrogram"),
+        InlineKeyboardButton("Pyrogram v2", callback_data="pyrogram"),
     ],
     # [
     #     InlineKeyboardButton("Pyrogram Bot", callback_data="pyrogram_bot"),
@@ -63,7 +63,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, old_pyro: 
         ty += " Bot"
     await msg.reply(f"Starting {ty} Session Generation...")
     user_id = msg.chat.id
-    api_id_msg = await bot.ask(user_id, 'Please send your `API_ID`', filters=filters.text)
+    api_id_msg = await bot.ask(user_id, 'sɪʟᴀʜᴋᴀɴ ᴋɪʀɪᴍᴋᴀɴ `API_ID` ᴛᴇʟᴇɢʀᴀᴍ ᴀɴᴅᴀ', filters=filters.text)
     if await cancelled(api_id_msg):
         return
     try:
@@ -71,19 +71,19 @@ async def generate_session(bot: Client, msg: Message, telethon=False, old_pyro: 
     except ValueError:
         await api_id_msg.reply('Not a valid API_ID (which must be an integer). Please start generating session again.', quote=True, reply_markup=InlineKeyboardMarkup(Data.generate_button))
         return
-    api_hash_msg = await bot.ask(user_id, 'Please send your `API_HASH`', filters=filters.text)
+    api_hash_msg = await bot.ask(user_id, 'sɪʟᴀʜᴋᴀɴ ᴋɪʀɪᴍᴋᴀɴ `API_HASH`ᴛᴇʟᴇɢʀᴀᴍ ᴀɴᴅᴀ', filters=filters.text)
     if await cancelled(api_hash_msg):
         return
     api_hash = api_hash_msg.text
     if not is_bot:
-        t = "Now please send your `PHONE_NUMBER` along with the country code. \nExample : `+62876543210`'"
+        t = "sɪʟᴀʜᴋᴀɴ ᴋɪʀɪᴍ ɴᴏᴍᴏʀ ᴀᴋᴜɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀɴᴅᴀ. \nᴄᴏɴᴛᴏʜ : `+62876543210`'ᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ᴘᴀᴋᴀɪ ᴋᴏᴅᴇ ɴᴇɢᴀʀᴀ"
     else:
         t = "Now please send your `BOT_TOKEN` \nExample : `12345:abcdefghijklmnopqrstuvwxyz`'"
     phone_number_msg = await bot.ask(user_id, t, filters=filters.text)
     if await cancelled(phone_number_msg):
         return
     phone_number = phone_number_msg.text
-    await msg.reply("Sending OTP...")
+    await msg.reply("sᴇᴅᴀɴɢ ᴍᴇɴɢɪʀɪᴍ ᴋᴏᴅᴇ ᴏᴛᴘ ᴋᴇ ᴀᴋᴜɴ ᴀɴᴅᴀ...")
     if telethon and is_bot:
         client = TelegramClient(StringSession(), api_id, api_hash)
         await client.start(bot_token=phone_number)
@@ -112,7 +112,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, old_pyro: 
     try:
         phone_code_msg = None
         if not is_bot:
-            phone_code_msg = await bot.ask(user_id, "Please check for an OTP in official telegram account. If you got it, send OTP here after reading the below format. \nIf OTP is `12345`, **please send it as** `1 2 3 4 5`.", filters=filters.text, timeout=600)
+            phone_code_msg = await bot.ask(user_id, "ᴘᴇʀɪᴋsᴀ ᴋᴏᴅᴇ ᴏᴛᴘ ᴅɪ ᴀᴋᴜɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀɴᴅᴀ ʟᴀʟᴜ ᴋɪʀɪᴍ ᴋᴇ sɪɴɪ. \nᴄᴏɴᴛᴏʜ ᴋᴏᴅᴇ ᴏᴛᴘ `12345`, **ᴄᴀʀᴀ ᴍᴀsᴜᴋɪɴ ᴏᴛᴘ sᴇᴘᴇʀᴛɪ ɪɴɪ** `1 2 3 4 5`.ᴊᴀɴɢᴀɴ sᴀᴍᴘᴀɪ sᴀʟᴀʜ", filters=filters.text, timeout=600)
             if await cancelled(phone_code_msg):
                 return
     except TimeoutError:
@@ -161,7 +161,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, old_pyro: 
     except KeyError:
         pass
     await client.disconnect()
-    await bot.send_message(msg.chat.id, "Successfully generated {} string session. \n\nPlease check your saved messages! \n\nBy @mhmdwldnnnn".format("telethon" if telethon else "pyrogram"))
+    await bot.send_message(msg.chat.id, "sᴛʀɪɴɢ sᴜᴅᴀʜ ᴊᴀᴅɪ. {} ᴄᴇᴋ ᴘᴇsᴀɴ ᴛᴇʀsɪᴍᴘᴀɴ ᴀɴᴅᴀ! . \n\nᴍɪɴɪᴍᴀʟ ʙɪʟᴀɴɢ ᴛᴇʀɪᴍᴀᴋᴀsɪʜ! \n\nᴋᴇ @mhmdwldnnnn".format("telethon" if telethon else "pyrogram"))
 
 
 async def cancelled(msg):
