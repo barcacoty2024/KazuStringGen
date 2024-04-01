@@ -13,7 +13,7 @@ class Data:
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("📥 Ini Grup Gua 📥", url="https://t.me/musicsupport_dan")],
+        [InlineKeyboardButton("📥 Ini Grup Gua 📥", url="https://t.me/musik_supportdan")],
         [
             InlineKeyboardButton("Cara Pakeknya ❔", callback_data="help"),
             InlineKeyboardButton("📌 Apa Masalah Lu 📌", callback_data="about")
