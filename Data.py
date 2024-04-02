@@ -4,22 +4,20 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-𝙷𝙰𝙻𝙾 {}
+ʜᴇʟʟᴏ {}
+✪ sᴀʏᴀ {} 🤖
 
-𝚂𝙴𝙻𝙰𝙼𝙰𝚃 𝙳𝙰𝚃𝙰𝙽𝙶 𝙳𝙸 {}
+ɪɴɪ ᴀᴅᴀʟᴀʜ ʙᴏᴛ sᴛʀɪɴɢ sᴇssɪᴏɴ ʏᴀɴɢ ᴍᴜᴅᴀʜ ᴅɪɢᴜɴᴀᴋᴀɴ 
+ʜᴀɴʏᴀ ᴍᴇᴍʙᴜᴛᴜʜᴋᴀɴ ɴᴏᴍᴏʀ 
+ᴛᴇʟᴇɢʀᴀᴍ sᴀᴊᴀ
 
-𝙹𝙸𝙺𝙰 𝚃𝙸𝙳𝙰𝙺 𝙿𝙴𝚁𝙲𝙰𝚈𝙰 𝙳𝙴𝙽𝙶𝙰𝙽 𝙱𝙾𝚃 𝙸𝙽𝙸, 
-1) 𝙶𝙰𝚄𝚂𝙰𝙷 𝙱𝙰𝙲𝙰 𝙿𝙴𝚂𝙰𝙽 𝙸𝙽𝙸 
-2) 𝙱𝙻𝙾𝙺𝙸𝚁 𝙱𝙾𝚃 𝙰𝚃𝙰𝚄 𝙳𝙴𝙻𝙰𝚃𝙴 𝙲𝙷𝙰𝚃 
-
-Bot ini Bekerja Untuk Membantu Kamu Mendapatkan String Session Via Bot. Rekomendasi Jika Ingin Mengambil String Gunakan Akun Lain, Agar Tidak Delay. Terimakasih
 By @mhmdwldnnnn
     """
 
     # Home Button
     home_buttons = [
         [InlineKeyboardButton("sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ​", callback_data="generate")],
-        [InlineKeyboardButton(text="ʙᴀᴄᴋ​", callback_data="home")]
+        [InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ​", callback_data="home")]
     ]
 
     generate_button = [
@@ -31,35 +29,33 @@ By @mhmdwldnnnn
         [InlineKeyboardButton("sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ", callback_data="generate")],
         [InlineKeyboardButton("ᴍᴀɪɴᴛᴀɴᴇᴅ ʙʏ​", url="https://t.me/mhmdwldnnnn")],
         [
-            InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ​​", callback_data="help"),
-            InlineKeyboardButton("ᴀʙᴏᴜᴛ​", callback_data="about")
+            InlineKeyboardButton("ʙᴀɴᴛᴜᴀɴ", callback_data="help"),
+            InlineKeyboardButton("ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ", callback_data="about")
         ],
         [InlineKeyboardButton("ɪɴꜰᴏ ʙᴏᴛ ʟᴀɪɴɴʏᴀ​", url="https://t.me/Disney_storeDan")],
     ]
 
     # Help Message
     HELP = """
-✨ **Available Commands** ✨
+**𝗟𝗶𝘀𝘁 𝗕𝗮𝗻𝘁𝘂𝗮𝗻**
 
-/about - Tentang Bot ini
-/help - This Message
-/start - Mulai Bot
-/generate - Mulai Generating Session
-/cancel - Membatalkan process
-/restart - Membatalkan process
+/about - Cek
+/help - Cek
+/start - Cek
+/generate - Cek
+/cancel - Cek
+/restart - Cek
 """
 
     # About Message
     ABOUT = """
-**About This Bot** 
+**𝗧𝗲𝗻𝘁𝗮𝗻𝗴 𝗦𝗮𝘆𝗮* 
 
-Sebuah telegram bot untuk mengambil pyrogram dan telethon string session by @mhmdwldnnnn
+𝗦𝗮𝘆𝗮 𝗗𝗶𝗯𝘂𝗮𝘁 𝗢𝗹𝗲𝗵 : [Dan](https://t.me/mhmdwldnnnn) 
 
-Group Support : [Gabung](https://t.me/Disney_storeDan)
+𝗕𝘂𝗮𝘁 𝗟𝘂 𝗬𝗮𝗻𝗴 𝗕𝗮𝗿𝘂 𝗠𝗮𝗲𝗻 𝗧𝗲𝗹𝗲 𝗬𝗮 𝗔𝗻𝗷𝗲𝗻𝗴..
 
-Framework : [Pyrogram](docs.pyrogram.org)
-
-Language : [Python](www.python.org)
+Cuma Modal Copas Ya Anjeng, Gua Bukan ProDev Ya Bangsat
 
 Developer : @mhmdwldnnnn
     """
