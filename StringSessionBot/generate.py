@@ -34,11 +34,11 @@ from telethon.errors import (
 ask_ques = "Silahkan Tekan String Mana Yang Ingin Kamu Ambil"
 buttons_ques = [
     [
-        InlineKeyboardButton("Pyrogram v1[Wildan-Userbot]", callback_data="pyrogram"),
+        InlineKeyboardButton("Pyrogram v2[Dan-Userbot]", callback_data="pyrogram"),
         InlineKeyboardButton("Telethon", callback_data="telethon"),
     ],
     [
-        InlineKeyboardButton("Pyrogram v2[Dan-Userbot]", callback_data="pyrogram"),
+        
     ],
     # [
     #     InlineKeyboardButton("Pyrogram Bot", callback_data="pyrogram_bot"),
