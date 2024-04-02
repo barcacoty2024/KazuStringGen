@@ -34,7 +34,7 @@ from telethon.errors import (
 ask_ques = "Silahkan Tekan String Mana Yang Ingin Kamu Ambil"
 buttons_ques = [
     [
-        InlineKeyboardButton("Pyrogram v2[Dan-Userbot]", callback_data="pyrogram"),
+        InlineKeyboardButton("Pyrogram v2", callback_data="pyrogram"),
         InlineKeyboardButton("Telethon", callback_data="telethon"),
     ],
     [
