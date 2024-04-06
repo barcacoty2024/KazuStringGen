@@ -63,7 +63,8 @@ async def generate_session(bot: Client, msg: Message, telethon=False, old_pyro: 
         ty += " Bot"
     await msg.reply(f"Mencoba memulai {ty} generator session...")
     user_id = msg.chat.id
-    api_id_msg = await bot.ask(user_id, 'sɪʟᴀʜᴋᴀɴ ᴋɪʀɪᴍᴋᴀɴ `API_ID` ᴛᴇʟᴇɢʀᴀᴍ ᴀɴᴅᴀ', filters=filters.text)
+    api_id_msg = await bot.ask(user_id, 'sɪʟᴀʜᴋᴀɴ ᴋɪʀɪᴍ ɴᴏᴍᴏʀ ᴀᴋᴜɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀɴᴅᴀ. 
+    ᴄᴏɴᴛᴏʜ : +6214045 ᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ᴘᴀᴋᴀɪ ᴋᴏᴅᴇ ɴᴇɢᴀʀᴀ', filters=filters.text)
     if await cancelled(api_id_msg):
         return
     try:
