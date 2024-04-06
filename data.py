@@ -49,5 +49,5 @@ class Data:
 
 Cuma Modal Copas Ya Anjeng, Gua Bukan ProDev Ya Bangsat
 
-Developer : @mhmdwldnnnn
+Maintainer : @mhmdwldnnnn
     """
