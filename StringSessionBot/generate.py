@@ -152,7 +152,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, old_pyro: 
         string_session = client.session.save()
     else:
         string_session = await client.export_session_string()
-    text = f"**{ty.upper()} String Session** \n\n`{string_session}` \n\nᴍɪɴɪᴍᴀʟ ʙɪʟᴀɴɢ ᴛᴇʀɪᴍᴀᴋᴀsɪʜ ᴋᴇ @mhmdwldnnnn ᴀᴛᴀᴜ ᴋᴇ @musik_supportdan ᴋᴀʀᴇɴᴀ ᴀᴋᴜɴ ᴀɴᴅᴀ ᴛɪᴅᴀᴋ ᴅᴇᴀᴋ ᴅᴀɴ ᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ᴀᴅᴅʙʟᴀᴄᴋʟɪsᴛ"
+    text = f"Berhasil Membuat**{ty.upper()} String Session** \n\n`{string_session}` \n\nᴍɪɴɪᴍᴀʟ ʙɪʟᴀɴɢ ᴛᴇʀɪᴍᴀᴋᴀsɪʜ ᴋᴇ @mhmdwldnnnn ᴀᴛᴀᴜ ᴋᴇ @musik_supportdan ᴋᴀʀᴇɴᴀ ᴀᴋᴜɴ ᴀɴᴅᴀ ᴛɪᴅᴀᴋ ᴅᴇᴀᴋ ᴅᴀɴ ᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ᴀᴅᴅʙʟᴀᴄᴋʟɪsᴛ"
         if not is_bot:
             await client.send_message("me", text)
         else:
